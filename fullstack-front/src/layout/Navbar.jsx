@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import AddUser from "../users/AddUser";
 
 function Navbar() {
   return (
@@ -17,9 +16,7 @@ function Navbar() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+          ></button>
           <Link to="/AddUser" className="btn btn-outline-light">
             Add User
           </Link>
